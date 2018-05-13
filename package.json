@@ -1,0 +1,14 @@
+{
+	"name": "dev-2018",
+	"version": "1.0.0",
+	"description": "course",
+	"main": "app.js",
+	"scripts": {
+		"start": "browser-sync start --server --files **/* --directory --port 3000"
+	},
+	"author": "CDV",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.24.4"
+	}
+}
